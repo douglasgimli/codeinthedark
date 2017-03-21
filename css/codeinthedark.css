@@ -1,0 +1,319 @@
+/* * * * * * *
+* General
+***/
+
+html, body {
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+}
+body {
+    overflow-x:hidden;
+}
+.container {
+    background-image: url(../img/background-bottom.jpg?v=1);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding:0 0 80px 0;
+}
+.clearfix {
+    content:"";
+    clear:both;
+}
+.green {
+    color: #62c08d;
+}
+
+.button__green {
+    padding:11px 55px;
+    font-weight: bold;
+    background-color:#039f4a;
+    font-size:28px;
+    color:#FFF;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.video-background {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:0;
+    overflow: hidden;
+}
+.fullscreen-bg__colorlayer {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:0;
+    background-color:#000;
+    opacity:.7;
+}
+
+.home {
+    width:100%;
+    height:100%;
+}
+.codeinthedark {
+    margin:0 auto;
+    min-height: 700px;
+}
+.content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index:1;
+    text-align: center;
+    color:#FFF;
+    max-height: 90%;
+}
+.content h2.title {
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+.content h2 {
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+.content h3 {
+    font-weight: normal;
+    font-size:16px;
+    margin: 5px 0 15% 0;
+}
+.content p {
+    font-weight: normal;
+    font-size:16px;
+    font-style: italic;
+}
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.beerpartycode {
+    color:#FFF;
+    font-size:45px;
+    width:600px;
+    margin:70px auto 0 auto;
+}
+
+.beerpartycode .party {
+    font-weight: bold;
+    position: relative;
+    left: 123px;
+}
+
+.beerpartycode .party .party_beer {
+    border: 1px solid #62c08d;
+    margin: 0px 0 0 -32px;
+    padding: 0px 0 0 32px;
+}
+
+.showus {
+    color:#FFF;
+    margin:0 auto;
+}
+.showus .doyou {
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+.whatis{
+}
+.whatis .title {
+    text-align: center;
+    color: #62c08d;
+    font-style: bold;
+    font-size: 50px;
+}
+
+.whatis .icons {
+    border: 1px solid #62c08d;
+    width:960px;
+    max-width:95%;
+    padding:20px 100px 20px 200px;
+    margin:0 auto 50px auto;
+    box-sizing: border-box;
+}
+.whatis .icons .rules {
+    padding: 0;
+    margin: 0 auto;
+    width: 640px;
+}
+.whatis .icons .rules li {
+    list-style: none;
+    float:left;
+    font-weight: bold;
+    font-size: 20px;
+    padding:10px 0 0 0;
+    margin:0 40px 0 0;
+}
+.whatis .icons .rules li.icon {
+    color:#FFF;
+    padding:40px 0 0 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.whatis .icons .rules .icon__minutes {
+    background-image: url(../img/clock.png);
+}
+.whatis .icons .rules .icon__winner {
+    background-image: url(../img/win.png);
+}
+.whatis .icons .rules .icon__htmlcss {
+    background-image: url(../img/html.png);
+}
+
+
+.whatis .description {
+    border: 1px solid #62c08d;
+    font-size: 20px;
+    color: #fff;
+    max-width:90%;
+    margin:0 auto;
+    padding:20px 20px 20px 30px;
+    position: relative;
+    left: 0px;
+}
+
+.whatis .description a {
+    color: #62c08d;
+}
+
+.video {
+    margin:60px auto;
+    width:800px;
+}
+
+
+.subscription {
+    text-align:center;
+    margin:0 0 100px 0;
+}
+
+.subscription .title {
+    color: #62c08d;
+    font-style: bold;
+    font-size: 50px;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+.subscription h2 {
+    font-size: 35px;
+    color: #fff;
+    font-style: normal;
+}
+
+.subscription h4 {
+    font-size: 30px;
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
+
+.subscription h3 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    width: 437px;
+    margin: 30px auto 80px auto;
+}
+
+.subscription .button__green_bottom {
+    padding:11px 65px;
+    font-weight: bold;
+    background-color:#62c08d;
+    font-size:28px;
+    color:#FFF;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.subscription p {
+    color: #fff;
+    font-style: normal;
+}
+
+.subscription .description {
+    border: 1px solid #62c08d;
+    width: 80%;
+    margin: 80px auto 0 auto;
+    padding: 10px 10px 15px 10px;
+    box-sizing: border-box;
+}
+.subscription .description h3 {
+    color: #62c08d;
+    font-style: normal;
+    margin:0 auto 10px auto;
+    padding:0;
+}
+.subscription .description p {
+    color: #fff;
+    font-style: normal;
+    margin:0;
+    padding:0;
+}
+.subscription .description a {
+    font-style: italic;
+    color: #fff;
+}
+
+.about {
+    margin:0 auto;
+    text-align:center;
+}
+.about h2 {
+    font-size:20px;
+    color:#666;
+    font-weight: normal;
+}
+.about .sponsors a {
+    margin:0 25px 0 0;
+}
+
+
+@media all and (min-width: 1024px) {
+
+    .whatis .description {
+        max-width:50%;
+        padding:20px 80px 20px 30px;
+        left: 110px;
+    }
+    .codeinthedark {
+        max-height:330px;
+        min-height: auto;
+    }
+
+}
+
+
+@media all and (min-height: 800px) {
+
+    .codeinthedark {
+        height:600px;
+        max-height: 50000px;
+    }
+
+}

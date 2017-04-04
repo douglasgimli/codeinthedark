@@ -132,6 +132,18 @@ body {
     font-weight: normal;
 }
 
+.mosaic {
+    max-width: 830px;
+    margin: 0 auto;
+    padding: 30px 20px 100px 30px;
+    position: relative;
+    left: 0px;
+}
+.mosaic img {
+    width: 200px;
+    border: 1px solid #fff;
+    display: inline-block;
+}
 
 .whatis{
 }
@@ -292,10 +304,16 @@ body {
 .about .sponsors a {
     margin:0 25px 0 0;
 }
-
+.about .conduct-code {
+    margin: 50px 0 0 0;
+}
+.about .conduct-code a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: .8em;
+}
 
 @media all and (min-width: 1024px) {
-
     .whatis .description {
         max-width:50%;
         padding:20px 80px 20px 30px;
@@ -305,12 +323,9 @@ body {
         max-height:330px;
         min-height: auto;
     }
-
 }
 
-
 @media all and (min-height: 800px) {
-
     .codeinthedark {
         height:600px;
         max-height: 50000px;

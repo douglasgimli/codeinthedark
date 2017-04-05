@@ -248,7 +248,7 @@ body {
     color: #fff;
     font-weight: normal;
     text-align: center;
-    width: 437px;
+    width: 537px;
     margin: 30px auto 80px auto;
 }
 
@@ -302,6 +302,9 @@ body {
 }
 .about .sponsors a {
     margin:0 25px 0 0;
+}
+.about .sponsors a img.larger {
+    margin-top: -15px;
 }
 .about .conduct-code {
     margin: 50px 0 0 0;
